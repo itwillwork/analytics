@@ -1,0 +1,23 @@
+.Link {
+  color: #1A91EB;
+  cursor: pointer;
+  display: table-cell;
+  text-align: right;
+  padding-right: 16px;
+  width: 40px;
+
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+
+  &:active,
+  &:focus {
+    outline: none;
+  }
+}
+

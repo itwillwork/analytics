@@ -1,0 +1,50 @@
+.DashBoard {
+  display: table;
+  height: 100%;
+  width: 100%;
+  background: #EFF3F6;
+
+  &__container {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+  }
+  &__title {
+    text-align: center;
+    color: #354052;
+    font-family: 'Slabo 27px', serif;
+    width: 320px;
+    margin: 42px auto 20px;
+    font-size: 54px;
+  }
+  &__graphArea {
+    margin: 0 auto 50px;
+  }
+  &__actions {
+    margin: 0 auto 10px;
+    padding: 0 5px;
+    box-sizing: border-box;
+    text-align: right;
+  }
+}
+
+@media (max-width: 2000px) {
+  .DashBoard__separator {
+    width: 1600px;
+  }
+}
+@media (max-width: 1600px) {
+  .DashBoard__separator {
+    width: 1200px;
+  }
+}
+@media (max-width: 1200px) {
+  .DashBoard__separator {
+    width: 800px;
+  }
+}
+@media (max-width: 800px) {
+  .DashBoard__separator {
+    width: 400px;
+  }
+}
